@@ -1,0 +1,228 @@
+/* --- STYLES FOR ALL PAGES --- */
+body {
+  /* Typography */
+  font-family: "Roboto Slab", Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+  /* Positioning */
+  position: relative;
+
+  /* Box-model */
+  min-height: 100%;
+}
+
+/* add space for fixed nav */
+main {
+  margin: 80px 0;
+}
+
+.about-me-page {
+  background-image: url("https://www.hiresafe.com/wp-content/uploads/2015/03/Business-Screening-Services1.jpg");
+  background-size: cover;
+}
+
+.contact-page {
+  background-image: url("https://pdgprinting.com/wp-content/uploads/2017/05/portfolio-background.jpg");
+  background-size: auto;
+}
+
+.portfolio-page {
+  background-image: url("https://wallpaperaccess.com/full/1878563.png");
+  background-size: cover;
+}
+
+section {
+  margin: 50px auto;
+}
+
+a {
+  text-align: center;
+}
+
+a:hover {
+  color: darkblue;
+  text-decoration: none;
+}
+
+h2:hover {
+  font-weight: bold;
+}
+
+/* create styles for use for all white main boxes */
+.block {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #536c96;
+}
+
+.block-header {
+  /* Typography */
+  color: #536c96;
+  font-family: "Roboto Slab", Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+/* NAV START */
+#logo {
+  font-family: "Roboto Slab", Georgia, 'Times New Roman', Times, serif;
+
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+
+  /* Visual */
+  background: #536c96;
+}
+
+/* override bootstrap hover color and border */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #536c96;
+}
+
+.navbar {
+  background: white;
+  border: none;
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 20px 20px;
+  font-size: 28px;
+  line-height: 1.5;
+  position: inline-block;
+}
+
+.text-muted-footer {
+  color: #fefefe!important;
+}
+
+/* media query for nav background color change */
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #536c96;
+  }
+}
+/* END NAV */
+
+
+/* CONNECT W/ ME CSS */
+.connect-header {
+  /* Typography */
+  font-size: 25px;
+}
+
+.connect-photo {
+  /* Box-model */
+  width: 55px;
+  height: 55px;
+}
+
+#images {
+  /* Box-model */
+  padding-top: 15px;
+
+  /* Typography */
+  text-align: center;
+}
+/* END CONNECT W/ ME */
+
+
+/* BEGIN FOOTER */
+.footer {
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+
+  /* Box-model */
+  width: 100%;
+  height: 60px;
+
+  /* Visual */
+  background-color: #666;
+}
+
+.text-muted-footer {
+  /* Box-model */
+  margin-top: 15px;
+
+  /* Typography */
+  color: #fff;
+}
+
+.two-toned-footer-color {
+  /* Box-model */
+  height: 6px;
+  padding-top: 3px;
+
+  /* Visual */
+  background-color: #536c96;
+}
+/* END FOOTER */
+/* --- END STYLES FOR ALL PAGES --- */
+
+/* --- PAGE-SPECIFIC STYLES --- */
+/* ABOUT-ME PAGE */
+.about-me-header {
+  /* Positioning */
+  margin-bottom: 33px;
+  font-family: "Roboto Slab", Georgia, 'Times New Roman', Times, serif;
+
+  /* Typography */
+  font-size: 32px;
+  font-weight: bold;
+  color: #536c96;
+}
+
+#about-image {
+  /* Positioning */
+  float: left;
+
+  /* Box-model */
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+/* END ABOUT-ME PAGE */
+
+
+/* PORTFOLIO PAGE */
+.port-image {
+  margin: 20px auto;
+}
+/* END PORTFOLIO PAGE */
+
+
+/* CONTACT FORM PAGE  */
+.form-control {
+  /* give input boxes right angles */
+  border-radius: 0;
+
+  /* keep from horizontally resizing text area */
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.submit-btn {
+  /* Box-model */
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+
+  /* Typography */
+  color: #fff;
+
+  /* Visual */
+  background-color: #536c96;
+  border: 0;
+}
+
+.submit-btn:hover {
+  opacity: .7;
+}
+
+/* END CONTACT FORM PAGE */
