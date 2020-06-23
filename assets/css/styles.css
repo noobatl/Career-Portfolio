@@ -23,8 +23,8 @@ main {
 }
 
 .contact-page {
-  background-image: url("https://pdgprinting.com/wp-content/uploads/2017/05/portfolio-background.jpg");
-  background-size: auto;
+  background-image: url("https://outdoorspaces.sg/img/headerbg/about2.jpg");
+  background-size: cover;
 }
 
 .portfolio-page {
